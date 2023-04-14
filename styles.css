@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior{
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: white;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+.lupa{
+    height: 18px;
+    width: 30px;
+    margin-top: 8px;
+}
+
+.caixa-media{
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    margin-top: 18px;
+}
+
+.icone{
+    margin-bottom: 5px;
+}
+
+h2{
+    color: white;
+    font-size: 28px;
+}
+
+.temp{
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.descricao{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.umidade{
+    color: #ffffff;
+    margin-top: 30px;
+}
